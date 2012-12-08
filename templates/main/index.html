@@ -1,0 +1,84 @@
+{% extends "main/base.html" %}
+
+{% block title_tag %}About - Minetest{% endblock %}
+{% block title_sub %}About{% endblock %}
+
+{% block content %}
+<h2>Minetest</h2>
+
+<div style="float:right;">
+
+<a href="/media/main/screenshot_terrain_2012-12-03.png">
+<img style="margin: 0em 0em 3em 3em; width: 400px;" alt="screenshot" src="/media/main/screenshot_terrain_2012-12-03_small.jpg"/>
+</a>
+<br />
+
+<a href="/media/main/screenshot_terrain_2012-06-03.png">
+<img style="margin: 0em 0em 3em 3em; width: 400px;" alt="screenshot" src="/media/main/screenshot_terrain_2012-06-03_small.jpg"/>
+</a>
+<br />
+
+<a href="/media/main/screenshot_cave_2012-06-03.png">
+<img style="margin: 0em 0em 3em 3em; width: 400px;" alt="screenshot" src="/media/main/screenshot_cave_2012-06-03_small.jpg"/>
+</a>
+<br />
+
+</div>
+
+<p>
+Minetest is an infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft and the like. It has been in development and use since October 2010.
+</p>
+<p>
+It is Free and Open Source Software, released under the LGPL, available for Windows and Linux.
+</p>
+<p>
+Minetest is developed by Perttu "celeron55" Ahola and a number of contributors.
+</p>
+<p>
+Minetest is technically simple, stable and portable. It is lightweight enough to run on fairly old hardware. It currently runs playably on a laptop with Intel 945GM graphics. Though, as for the CPU, dualcore is recommended.
+</p>
+
+<h2>Features</h2>
+<ul id="features">
+<li>
+Walk around, dig and build in an infinite voxel world (or boxel, as reddit calls it), and craft stuff from raw materials to help you along the way. We hope to add in some survival elements, but not much really exist ATM.
+</li>
+<li>
+Sinfully easy server-side
+<a href="http://minetest.net/forum/viewforum.php?id=11">modding</a>
+<a href="http://api.minetest.net/">API</a>.
+<a href="https://github.com/celeron55/minetest/blob/stable-0.4/doc/lua_api.txt">(short)</a>
+</li>
+<li>
+Multiplayer support for tens of players, via servers hosted by users<br/>
+</li>
+<li>
+Voxel based dynamic lighting (quite similar to Minecraft; light up caves with torches)<br/>
+</li>
+<li>
+Almost infinite world and a fairly good map generator (limited to +-31000 blocks in all directions at the moment)<br />
+</li>
+<li>
+Runs natively on Windows and Linux (C++ and Irrlicht. No Java.)
+</li>
+</ul>
+
+<h2>Links &amp; other</h2>
+<p>
+<ul>
+<!--<li>
+<a href="http://">http://</a>
+</li>-->
+<li>
+IRC Channels:
+<ul>
+<li>#minetest @ Freenode</li>
+</ul>
+</li>
+</li>
+<li>
+The Author: Perttu Ahola, celeron55 @ IRCnet and gmail.com + contributors (see github or so) (<a href="http://www.ohloh.net/p/minetest-c55/contributors">ohloh</a>)
+</li>
+</ul>
+</p>
+{% endblock %}
