@@ -28,7 +28,7 @@ urlpatterns = patterns('',
 	# url(r'^admin/', include(admin.site.urls)),
 )
 
-# Serve media directly in DEBUG mode (supposedly running on ./manage.py testserver)
+# Serve media directly in DEBUG mode (supposedly running on ./manage.py runserver)
 if minetest.settings.DEBUG:
 	urlpatterns += patterns('',
 		(r'^media/(?P<path>.*)$', 'django.views.static.serve', {
