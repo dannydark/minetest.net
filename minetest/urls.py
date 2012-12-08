@@ -6,9 +6,9 @@ import minetest.settings
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-    # Examples:
-    # url(r'^$', 'minetest.views.home', name='home'),
-    # url(r'^minetest/', include('minetest.foo.urls')),
+	# Examples:
+	# url(r'^$', 'minetest.views.home', name='home'),
+	# url(r'^minetest/', include('minetest.foo.urls')),
 
 	url(r'^$', 'main.views.index'),
 	url(r'^news$', 'main.views.news'),
@@ -21,11 +21,11 @@ urlpatterns = patterns('',
 	url(r'^download.php$', 'main.views.download'),
 	url(r'^contribute.php$', 'main.views.contribute'),
 
-    # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
+	# Uncomment the admin/doc line below to enable admin documentation:
+	# url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
-    # Uncomment the next line to enable the admin:
-    # url(r'^admin/', include(admin.site.urls)),
+	# Uncomment the next line to enable the admin:
+	# url(r'^admin/', include(admin.site.urls)),
 )
 
 # Serve media directly in DEBUG mode (supposedly running on ./manage.py testserver)
